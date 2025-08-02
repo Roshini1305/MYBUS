@@ -10,7 +10,7 @@ async function loginUser(event) {
     }
 
     try {
-        const response = await fetch("https://mybus-ew1w.onrender.com/login.html", {
+        const response = await fetch("https://mybus-ew1w.onrender.com/login", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email, password })
